@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Please give your name !</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif;
+display: flex; flex-direction: column;
+justify-content: center; align-items: center; }
+main { padding: 10px 5px; border: 2px solid yellowgreen; border-radius: 15px; width: 380px; }
+.item { padding: 10px 80px; border-radius: 15px; }
+.item:hover { background-color: beige; transform: scale(1.02); color: darkcyan; }
+a { text-decoration: none; color: inherit; }
+#message { margin-top: 15px; color: gray; }
+</style>
+</head>
+<body>
+<h1>Please give your name !</h1>
+<p>We should know who you are.</p>
+<main>
+<div class="item">
+<form action="/login.pl" method="post">
+<input name="username" type="text" placeholder="text your name" />
+<input type="submit" value="submit" />
+</form>
+</div>
+</main>
+<div id="message">Thank you for using Webserv.</div>
+</body>
+</html>
