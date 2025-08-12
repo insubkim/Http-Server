@@ -1,8 +1,11 @@
 HTTP Webserver (C, C++)
 
-Unix Kqueue 를 이용한 I/O Multiplexing 서버 
+Unix Kqueue 를 이용한 I/O Multiplexing 서버
+
 Http Parser 구현 - RFC 9112,2616 준수
+
 CGI (Common Gateway Interface) 지원 - RFC 3875 준수
+
 단일 서버 다중 호스트, session/coockie 지원
 
 부하 테스트 
