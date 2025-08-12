@@ -8,6 +8,8 @@ CGI (Common Gateway Interface) 지원 - RFC 3875 준수
 
 단일 서버 다중 호스트, session/coockie 지원
 
+메모리 릭, 다수 예외처리
+
 부하 테스트 
 
 ![스크린샷 2023-12-19 오후 3 40 55](https://github.com/insubkim/Http-Server/assets/37211885/145a196e-8b0f-4253-ab8a-5776530f50ca)
