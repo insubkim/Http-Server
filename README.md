@@ -6,6 +6,8 @@ Http Parser 구현 - RFC 9112,2616 준수
 
 CGI (Common Gateway Interface) 지원 - RFC 3875 준수
 
+http parallel connections, time out 구현
+
 단일 서버 다중 호스트, session/coockie 지원
 
 메모리 릭, 다수 예외처리
